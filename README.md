@@ -49,4 +49,3 @@ Alright, let's make it happen.
 Congratulations, you've helped bring Bikini Bottom into the 21st century. A winner is you!
 
 ![To-Do](images/to-do.jpg)
-
