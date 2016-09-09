@@ -29,7 +29,7 @@ $(document).ready(function pollResults(){
           method: 'POST',
           data: { "id" : $(this).data('id') },
           dataType: 'json'
-        });
+        }).done(pollResults);
       });
 
     });
