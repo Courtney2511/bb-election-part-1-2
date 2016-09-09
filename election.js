@@ -23,7 +23,7 @@ $(document).ready(function pollResults(){
 
       }
 
-      $('.vote-button').on('click', function(eventObject){  // only the <button> for gary responds to this
+      $('.vote-button').on('click', function(eventObject){
         $.ajax({
           url: 'https://bb-election-api.herokuapp.com/vote',
           method: 'POST',
@@ -34,6 +34,6 @@ $(document).ready(function pollResults(){
 
     });
 
-  $('button').on('click', pollResults);
+  $('#refresh').on('click', pollResults);
 
 });
